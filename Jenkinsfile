@@ -14,7 +14,7 @@ pipeline {
   environment {
     K8S_NAMESPACE = "jenkins"
     APP_NAME = "hello-webapp"
-    SERVICE_PORT = "8085"
+    SERVICE_PORT = "30085"
     CONTAINER_PORT = "8080"
   }
 
